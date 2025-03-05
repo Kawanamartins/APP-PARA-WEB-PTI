@@ -36,8 +36,8 @@ O arquivo `bandeira.js` contém um script que desenha dinamicamente a bandeira d
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** para a estrutura da página.
-- **CSS3** para estilização.
+- **HTML** para a estrutura da página.
+- **CSS** para estilização.
 - **JavaScript** para manipulação do Canvas e renderização da bandeira do Japão.
 
 ## 📜 Licença
