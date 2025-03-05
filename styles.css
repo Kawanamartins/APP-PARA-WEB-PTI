@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 250px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+form button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
